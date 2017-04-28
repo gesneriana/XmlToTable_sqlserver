@@ -68,4 +68,7 @@
     <Compile Include="XmlToJson.cs" />
     <Compile Include="paraVlues.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="example.sql" />
+  </ItemGroup>
 </Project>
