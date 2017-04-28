@@ -1,6 +1,7 @@
 ﻿use sz6_cus
 go
 declare @xml xml
+---- 可以查询其他表的数据
 set @xml=(select top 1 * from DecHead for xml path('DecHead'))
 
 select * from dbo.XmlToTable(@xml,'DecHead')
