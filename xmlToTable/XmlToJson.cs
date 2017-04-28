@@ -15,7 +15,7 @@ public partial class UserDefinedFunctions
     /// <param name="xml">数据库转换xml文档对象</param>
     /// <param name="root">需要读取的根节点的名称</param>
     /// <returns></returns>
-    [SqlFunction(FillRowMethodName = "FillTableRow", TableDefinition = "id int,name nvarchar(20),value nvarchar(50)")]
+    [SqlFunction(FillRowMethodName = "FillTableRow", TableDefinition = "id int,name nvarchar(20),value nvarchar(500)")]
     public static System.Collections.IEnumerable XmlToTable(SqlXml xml, string root)
     {
         List<xmlToTable.paraVlues> pvList = new List<xmlToTable.paraVlues>();
