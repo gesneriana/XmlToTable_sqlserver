@@ -65,7 +65,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="XmlToJson.cs" />
+    <Compile Include="XmlToTable.cs" />
     <Compile Include="paraVlues.cs" />
   </ItemGroup>
   <ItemGroup>
